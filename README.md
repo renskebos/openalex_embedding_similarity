@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project is part of my **Master’s thesis** at **Utrecht University** in collaboration with the **Dutch Ministry of Health, Welfare, and Sport**. The goal is to **build a literature overview** on AI transparency in healthcare using AI-driven screening techniques. 
+This project is part of my Master’s thesis at Utrecht University in collaboration with the **Dutch Ministry of Health, Welfare, and Sport. The goal is to build a literature overview on AI transparency in healthcare using AI-driven screening techniques. 
 
-To achieve this, I used **OpenAlex** metadata from **2019 to 2025** which was vectorised with Jina Embedding v3 model. With these embeddings, I computed the **cosine similarity** between two **target texts** and all OpenAlex records. The top 10.000 cosine similarities of both target texts are screened with ASReview and the relevant records are used in the literature overview.
+To achieve this, I used OpenAlex metadata from 2019 to 2025 which was vectorised with Jina Embedding v3 model. With these embeddings, I computed the cosine similarity between two target texts and all OpenAlex records. The top 10.000 cosine similarities of both target texts are screened with ASReview and the relevant records are used in the literature overview.
 
 ## Repository Structure
 
@@ -18,19 +18,19 @@ To achieve this, I used **OpenAlex** metadata from **2019 to 2025** which was ve
 ## Methodology
 
 1. **Vectorization**  
-   - The texts were converted into numerical vector representations using **Jina Embeddings v3**, a multilingual feature extractor.
+   - The texts were converted into numerical vector representations using Jina Embeddings v3, a multilingual feature extractor.
 
 2. **Cosine Similarity Calculation**  
-   - Cosine similarity was computed between the **two target texts** and the **OpenAlex dataset**.  
+   - Cosine similarity was computed between the two target texts and the OpenAlex dataset.  
    - The results were ranked from highest to lowest similarity.
 
 3. **Screening and Selection**  
-   - The top **10,000 most similar papers** were selected.  
-   - These papers were **screened with ASReview** to refine the literature overview.
+   - The top 10,000 most similar papers were selected.  
+   - These papers were screened with ASReview to refine the literature overview.
 
 4. **Literature Overview Construction**  
    - The final selection of papers forms the basis of the literature review.  
-   - This review supports the development of **AI transparency frameworks** in healthcare.
+   - This review supports the development of AI transparency frameworks in healthcare.
 
 ## Dependencies
 
@@ -55,7 +55,7 @@ Run the following scripts in order:
 
 ## Research Context
 
-This project supports my **thesis on AI transparency in healthcare**. By structuring and prioritizing transparency-related literature, it aims to assist policymakers in developing **AI governance frameworks**.
+This project supports my thesis on AI transparency in healthcare. By structuring and prioritizing transparency-related literature, it aims to assist policymakers in developing AI governance frameworks.
 
 ## License
 
